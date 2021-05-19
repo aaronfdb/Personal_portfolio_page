@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
+body {
+  font-family: Cabin;
+}
+#navbar {
+  top: 0;
+  left: 0;
+  background-color: #556B2F;
+  padding: 3em;
+}
+.nav-link {
+  float: right;
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+#welcome-section {
+  text-align: center;
+  background-color: #B8860B;
+}
+
+#projects {
+  text-align: center;
+  background-color: #8FBC8F;
+}
+#profile-link {
+  
+}
+
+#footer {
+  background-color: #ADFF2F;
+}

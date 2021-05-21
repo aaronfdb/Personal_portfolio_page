@@ -3,33 +3,54 @@
 body {
   font-family: Cabin;
 }
-#navbar {
+#header {
+  position: fixed;
   top: 0;
-  left: 0;
-  background-color: #556B2F;
-  padding: 3em;
+  width: 97.7%;
+  background-color: #CD5C5C;
+}
+#navbar {
+  float: right;
+  display: block;
 }
 .nav-link {
   float: right;
-  display: block;
-  padding: 8px;
+  padding: 5px 5px 10px 5px;
   text-decoration: none;
   color: black;
 }
 
 #welcome-section {
   text-align: center;
-  background-color: #B8860B;
+  background-color: grey;
+  color: black;
+  display: block;
+  height: 100vh;
+  width: auto;
+  margin-top: 50px;
 }
 
 #projects {
   text-align: center;
   background-color: #8FBC8F;
+  padding: 10em;
 }
 #profile-link {
+  text-decoration: none;
+  color: red;
+}
+.project-tile {
   
 }
 
 #footer {
   background-color: #ADFF2F;
+  padding: 2em;
+  text-align: center;
+}
+
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: #FFEBCD;
+  }
 }

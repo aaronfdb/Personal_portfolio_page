@@ -40,13 +40,9 @@ body {
   color: red;
 }
 .project-tile {
-  
-}
-
-#footer {
-  background-color: #ADFF2F;
-  padding: 2em;
-  text-align: center;
+  display: grid;
+  padding: 2px;
+  background-color: lightgray;
 }
 
 @media only screen and (orientation: landscape) {

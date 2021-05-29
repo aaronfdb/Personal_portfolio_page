@@ -36,13 +36,19 @@ body {
   padding: 10em;
 }
 #profile-link {
-  text-decoration: none;
-  color: red;
+  text-decoration: underline;
 }
 .project-tile {
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   padding: 2px;
-  background-color: lightgray;
+}
+
+#contact {
+  text-align: center;
+  background-color: #DAA520;
+  padding: 5px;
 }
 
 @media only screen and (orientation: landscape) {
